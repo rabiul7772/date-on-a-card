@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  box-shadow: 7px 7px 7px 5px rgb(175, 163, 163);
+  margin: 50px auto;
+  border:1px solid white;
+  width: 250px;
+  height: 280px;
+  background-image: linear-gradient(aqua 80%, white 20%);
+
+}
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  
+}
+p {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: -1%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px green;
+  font-size: 1.1rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
